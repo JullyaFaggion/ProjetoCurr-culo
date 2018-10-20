@@ -98,17 +98,46 @@ h1 {
     float: left;
 }
 
-#ensino-fundamental p:first-child {
+.container-flex {
+    display: flex;  
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.madcode {
+    display: block;
+    float: left;
+    margin-right: 15vw;
+}
+
+.junior {
+    display: block;
+    float: left;
+    margin-right: 15vw;
+}
+
+.container-flex-novo {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.academia {
+    display: block;
+    float: left;
+    margin-right: 20vw;
+}
+
+.container-flex p:first-child{
     font-weight: bold;
     font-size: 15pt;
 }
 
-#tecnico p:first-child {
-    font-weight: bold;
-    font-size: 15pt;
-}
-
-#ensino-medio p:first-child {
+.container-flex-novo p:first-child{
     font-weight: bold;
     font-size: 15pt;
 }
