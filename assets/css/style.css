@@ -22,8 +22,8 @@ a {
 }
 
 .lista li {
-    display: inline;
-    margin-left: 100px;
+    display: inline-flex;
+    margin-left: 80px;
 }
 
 a:hover {
@@ -43,17 +43,18 @@ h1 {
     align-items: center;
 }
 
-#apresentacao {
+#apresentacao, #portfolio {
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.container > div > img {
+.estilo-imagem {
     width: 30vw;
     height: 30vw;
+    align-self: flex-end;
 }
 
-#descricao {
+.descricao {
     margin-right: 30px;
 }
 
@@ -69,7 +70,7 @@ h1 {
 }
 
 #apresentacao p {
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: center;
 }
 
@@ -79,6 +80,7 @@ h1 {
     margin-right: 30px;
     text-align: center;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 #ensino-fundamental {
@@ -103,7 +105,7 @@ h1 {
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .madcode {
@@ -124,9 +126,16 @@ h1 {
     margin-right: 30px;
     text-align: center;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .academia {
+    display: block;
+    float: left;
+    margin-right: 20vw;
+}
+
+.wizard {
     display: block;
     float: left;
     margin-right: 20vw;
@@ -142,7 +151,37 @@ h1 {
     font-size: 15pt;
 }
 
+.portfolio {
+    display: inline-flex;
+}
 
+.projetos h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    width: 40vw;
+}
+
+.projetos img {
+    width: 40vw;
+}
+
+.projetos {
+    margin-right: 10vw;
+    margin-left: 1.5vw;
+}
+
+.portfolio-novo {
+    width: 100vw;
+    margin-left: 25vw;
+}
+
+.mini-descricao p {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 12pt;
+    width: 40vw;
+}
 
 ol {
     list-style: none;
