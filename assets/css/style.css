@@ -4,7 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-ul, li {
+ul {
     list-style: none;
     color: black;
     font-weight: bold;
@@ -100,14 +100,6 @@ h1 {
     float: left;
 }
 
-.container-flex {
-    display: flex;  
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
 .madcode {
     display: block;
     float: left;
@@ -164,6 +156,7 @@ h1 {
 
 .projetos img {
     width: 40vw;
+    height: 25vw;
 }
 
 .projetos {
@@ -183,7 +176,62 @@ h1 {
     width: 40vw;
 }
 
-ol {
+.hobbies {
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+
+.livros {
+    display: block;
+    float: left;
+    width: 30vw;
+    padding: 4px;
+    border-right: 2px solid blueviolet;
+}
+
+.series {
+    display: block;
+    float: left;
+    width: 30vw;
+    padding: 4px;
+    border-right: 2px solid blueviolet;
+}
+
+.lol {
+    display: block;
+    float: left;
+    width: 30vw;
+    padding: 4px;
+}
+
+.comer {
+    display: block;
+    float: left;
+    width: 30vw;
+    padding: 4px;
+    border-right: 2px solid blueviolet;
+}
+
+.cozinhar {
+    display: block;
+    float: left;
+    width: 30vw;
+    padding: 4px;
+    border-right: 2px solid blueviolet;
+}
+
+.arduino {
+    display: block;
+    float: left;
+    width: 30vw; 
+    padding: 4px;   
+}   
+
+footer ol {
     list-style: none;
 }
 
